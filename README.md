@@ -1,0 +1,1 @@
+# cordova-plugin-macos-shell
