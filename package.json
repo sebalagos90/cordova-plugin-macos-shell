@@ -1,0 +1,26 @@
+{
+  "version": "0.0.1",
+  "name": "cordova-plugin-macos-shell",
+  "cordova_name": "MacosShell",
+  "description": "This macos desktop plugin allows using the native shell to execute commands.",
+  "license": "Apache 2.0",
+  "cordova": {
+    "id": "cordova-plugin-macos-shell",
+    "platforms": [
+      "osx"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebalagos90/cordova-plugin-macos-shell.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-osx"
+  ],
+  "author": "sebalagos90",
+  "bugs": {
+    "url": "https://github.com/sebalagos90/cordova-plugin-macos-shell/issues"
+  },
+  "homepage": "https://github.com/sebalagos90/cordova-plugin-macos-shell#readme"
+}
