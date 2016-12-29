@@ -4,8 +4,8 @@
 @implementation MacosShell
 - (void) executeCommand:(CDVInvokedUrlCommand*)command {
     [self.commandDelegate runInBackground: ^{
-        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@"plugin OK"];
+        CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@"plugin OK"];
         [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
-    }]
+    }];
 }
 @end
