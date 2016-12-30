@@ -14,7 +14,7 @@
         
         NSTask* task = [[NSTask alloc] init];
         [task setLaunchPath: @"/bin/sh"];
-        [task setArguments:@[@"-c", [NSString stringWithFormat:@"%@ -t 1000", shellCommand]]];
+        [task setArguments:@[@"-c", [NSString stringWithFormat:@"%@", shellCommand]]];
         [task setStandardOutput:pipe];
         
         NSFileHandle* file = [pipe fileHandleForReading];
